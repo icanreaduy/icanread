@@ -1,6 +1,12 @@
 
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+
 h2 {
-    font-family: 'fe-fontnormal', Arial, sans-serif;
+    font-family:'fe-fontnormal', Arial, sans-serif;
     font-weight:normal;
     font-style:normal;
 }
@@ -9,3 +15,10 @@ p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
 }
+
+@font-face {
+    font-family: 'fe-fontnormal';
+    src: url('https://icanread.uy/css/fonts/fe-font-webfont.woff2') format('woff2'),
+         url('https://icanread.uy/css/fonts/fe-font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
